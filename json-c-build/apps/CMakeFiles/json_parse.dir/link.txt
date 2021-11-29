@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/json_parse.dir/json_parse.c.o -o json_parse  -Wl,-rpath,"/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build" ../libjson-c.so.5.1.0 

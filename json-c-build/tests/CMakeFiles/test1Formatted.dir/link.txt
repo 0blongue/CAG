@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test1Formatted.dir/test1.c.o CMakeFiles/test1Formatted.dir/parse_flags.c.o -o test1Formatted  -Wl,-rpath,"/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build" ../libjson-c.so.5.1.0 

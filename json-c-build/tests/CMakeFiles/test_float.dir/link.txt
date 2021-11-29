@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test_float.dir/test_float.c.o -o test_float  -Wl,-rpath,"/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build" ../libjson-c.so.5.1.0 

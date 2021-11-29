@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test_json_pointer.dir/test_json_pointer.c.o -o test_json_pointer  -Wl,-rpath,"/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build" ../libjson-c.so.5.1.0 

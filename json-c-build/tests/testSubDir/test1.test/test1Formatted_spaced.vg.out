@@ -1,0 +1,16 @@
+==5440== Memcheck, a memory error detector
+==5440== Copyright (C) 2002-2017, and GNU GPL'd, by Julian Seward et al.
+==5440== Using Valgrind-3.16.1 and LibVEX; rerun with -h for copyright info
+==5440== Command: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore\ Year/Fall21/CS210/final_project/json-c-build/tests/test1Formatted spaced
+==5440== Parent PID: 5420
+==5440== 
+==5440== error calling PR_SET_PTRACER, vgdb might block
+==5440== 
+==5440== HEAP SUMMARY:
+==5440==     in use at exit: 0 bytes in 0 blocks
+==5440==   total heap usage: 231 allocs, 231 frees, 14,291 bytes allocated
+==5440== 
+==5440== All heap blocks were freed -- no leaks are possible
+==5440== 
+==5440== For lists of detected and suppressed errors, rerun with: -s
+==5440== ERROR SUMMARY: 0 errors from 0 contexts (suppressed: 0 from 0)

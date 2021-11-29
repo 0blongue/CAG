@@ -1,0 +1,1255 @@
+The system is: Linux - 4.4.0-18362-Microsoft - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /usr/bin/cc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/3.21.4/CompilerIdC/a.out"
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1123d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1123d.dir/build.make CMakeFiles/cmTC_1123d.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o
+/usr/bin/cc   -v -o CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-3' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20201224 (Debian 10.2.1-3) 
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/ccUxF3nM.s
+GNU C17 (Debian 10.2.1-3) version 10.2.1 20201224 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.1 20201224, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+warning: GMP header version 6.2.1 differs from library version 6.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"
+ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"
+#include "..." search starts here:
+#include <...> search starts here:
+ /usr/lib/gcc/x86_64-linux-gnu/10/include
+ /usr/local/include
+ /usr/include/x86_64-linux-gnu
+ /usr/include
+End of search list.
+GNU C17 (Debian 10.2.1-3) version 10.2.1 20201224 (x86_64-linux-gnu)
+	compiled by GNU C version 10.2.1 20201224, GMP version 6.2.1, MPFR version 4.1.0, MPC version 1.2.0, isl version isl-0.23-GMP
+
+warning: GMP header version 6.2.1 differs from library version 6.2.0.
+GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+Compiler executable checksum: 41c619eec59954cac85117ce544a0bfb
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+ as -v --64 -o CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o /tmp/ccUxF3nM.s
+GNU assembler version 2.35.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.1
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64'
+Linking C executable cmTC_1123d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1123d.dir/link.txt --verbose=1
+/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -o cmTC_1123d 
+Using built-in specs.
+COLLECT_GCC=/usr/bin/cc
+COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper
+OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa
+OFFLOAD_TARGET_DEFAULT=1
+Target: x86_64-linux-gnu
+Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-3' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c,ada,c++,go,brig,d,fortran,objc,obj-c++,m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32,m64,mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-nvptx/usr,amdgcn-amdhsa=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-gcn/usr,hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex
+Thread model: posix
+Supported LTO compression algorithms: zlib zstd
+gcc version 10.2.1 20201224 (Debian 10.2.1-3) 
+COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/
+LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1123d' '-mtune=generic' '-march=x86-64'
+ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuE7H9f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1123d /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1123d' '-mtune=generic' '-march=x86-64'
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Parsed C implicit include dir info from above output: rv=done
+  found start of include info
+  found start of implicit include info
+    add: [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+    add: [/usr/local/include]
+    add: [/usr/include/x86_64-linux-gnu]
+    add: [/usr/include]
+  end of search list found
+  collapse include dir [/usr/lib/gcc/x86_64-linux-gnu/10/include] ==> [/usr/lib/gcc/x86_64-linux-gnu/10/include]
+  collapse include dir [/usr/local/include] ==> [/usr/local/include]
+  collapse include dir [/usr/include/x86_64-linux-gnu] ==> [/usr/include/x86_64-linux-gnu]
+  collapse include dir [/usr/include] ==> [/usr/include]
+  implicit include dirs: [/usr/lib/gcc/x86_64-linux-gnu/10/include;/usr/local/include;/usr/include/x86_64-linux-gnu;/usr/include]
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1123d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1123d.dir/build.make CMakeFiles/cmTC_1123d.dir/build]
+  ignore line: [gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/usr/bin/cc   -v -o CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -c /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-3' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20201224 (Debian 10.2.1-3) ]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/cc1 -quiet -v -imultiarch x86_64-linux-gnu /usr/share/cmake-3.21/Modules/CMakeCCompilerABI.c -quiet -dumpbase CMakeCCompilerABI.c -mtune=generic -march=x86-64 -auxbase-strip CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -version -fasynchronous-unwind-tables -o /tmp/ccUxF3nM.s]
+  ignore line: [GNU C17 (Debian 10.2.1-3) version 10.2.1 20201224 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20201224  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.2.1 differs from library version 6.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [ignoring nonexistent directory "/usr/local/include/x86_64-linux-gnu"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/include-fixed"]
+  ignore line: [ignoring nonexistent directory "/usr/lib/gcc/x86_64-linux-gnu/10/../../../../x86_64-linux-gnu/include"]
+  ignore line: [#include "..." search starts here:]
+  ignore line: [#include <...> search starts here:]
+  ignore line: [ /usr/lib/gcc/x86_64-linux-gnu/10/include]
+  ignore line: [ /usr/local/include]
+  ignore line: [ /usr/include/x86_64-linux-gnu]
+  ignore line: [ /usr/include]
+  ignore line: [End of search list.]
+  ignore line: [GNU C17 (Debian 10.2.1-3) version 10.2.1 20201224 (x86_64-linux-gnu)]
+  ignore line: [	compiled by GNU C version 10.2.1 20201224  GMP version 6.2.1  MPFR version 4.1.0  MPC version 1.2.0  isl version isl-0.23-GMP]
+  ignore line: []
+  ignore line: [warning: GMP header version 6.2.1 differs from library version 6.2.0.]
+  ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+  ignore line: [Compiler executable checksum: 41c619eec59954cac85117ce544a0bfb]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [ as -v --64 -o CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o /tmp/ccUxF3nM.s]
+  ignore line: [GNU assembler version 2.35.1 (x86_64-linux-gnu) using BFD version (GNU Binutils for Debian) 2.35.1]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o' '-c' '-mtune=generic' '-march=x86-64']
+  ignore line: [Linking C executable cmTC_1123d]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1123d.dir/link.txt --verbose=1]
+  ignore line: [/usr/bin/cc  -v -rdynamic CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -o cmTC_1123d ]
+  ignore line: [Using built-in specs.]
+  ignore line: [COLLECT_GCC=/usr/bin/cc]
+  ignore line: [COLLECT_LTO_WRAPPER=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper]
+  ignore line: [OFFLOAD_TARGET_NAMES=nvptx-none:amdgcn-amdhsa:hsa]
+  ignore line: [OFFLOAD_TARGET_DEFAULT=1]
+  ignore line: [Target: x86_64-linux-gnu]
+  ignore line: [Configured with: ../src/configure -v --with-pkgversion='Debian 10.2.1-3' --with-bugurl=file:///usr/share/doc/gcc-10/README.Bugs --enable-languages=c ada c++ go brig d fortran objc obj-c++ m2 --prefix=/usr --with-gcc-major-version-only --program-suffix=-10 --program-prefix=x86_64-linux-gnu- --enable-shared --enable-linker-build-id --libexecdir=/usr/lib --without-included-gettext --enable-threads=posix --libdir=/usr/lib --enable-nls --enable-bootstrap --enable-clocale=gnu --enable-libstdcxx-debug --enable-libstdcxx-time=yes --with-default-libstdcxx-abi=new --enable-gnu-unique-object --disable-vtable-verify --enable-plugin --enable-default-pie --with-system-zlib --enable-libphobos-checking=release --with-target-system-zlib=auto --enable-objc-gc=auto --enable-multiarch --disable-werror --with-arch-32=i686 --with-abi=m64 --with-multilib-list=m32 m64 mx32 --enable-multilib --with-tune=generic --enable-offload-targets=nvptx-none=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-nvptx/usr amdgcn-amdhsa=/build/gcc-10-0py4jQ/gcc-10-10.2.1/debian/tmp-gcn/usr hsa --without-cuda-driver --enable-checking=release --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=x86_64-linux-gnu --with-build-config=bootstrap-lto-lean --enable-link-mutex]
+  ignore line: [Thread model: posix]
+  ignore line: [Supported LTO compression algorithms: zlib zstd]
+  ignore line: [gcc version 10.2.1 20201224 (Debian 10.2.1-3) ]
+  ignore line: [COMPILER_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/]
+  ignore line: [LIBRARY_PATH=/usr/lib/gcc/x86_64-linux-gnu/10/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib/:/lib/x86_64-linux-gnu/:/lib/../lib/:/usr/lib/x86_64-linux-gnu/:/usr/lib/../lib/:/usr/lib/gcc/x86_64-linux-gnu/10/../../../:/lib/:/usr/lib/]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_1123d' '-mtune=generic' '-march=x86-64']
+  link line: [ /usr/lib/gcc/x86_64-linux-gnu/10/collect2 -plugin /usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so -plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper -plugin-opt=-fresolution=/tmp/ccuE7H9f.res -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc -plugin-opt=-pass-through=-lgcc_s --build-id --eh-frame-hdr -m elf_x86_64 --hash-style=gnu --as-needed -export-dynamic -dynamic-linker /lib64/ld-linux-x86-64.so.2 -pie -o cmTC_1123d /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o /usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o -L/usr/lib/gcc/x86_64-linux-gnu/10 -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu -L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib -L/lib/x86_64-linux-gnu -L/lib/../lib -L/usr/lib/x86_64-linux-gnu -L/usr/lib/../lib -L/usr/lib/gcc/x86_64-linux-gnu/10/../../.. CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o -lgcc --push-state --as-needed -lgcc_s --pop-state -lc -lgcc --push-state --as-needed -lgcc_s --pop-state /usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o /usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/usr/lib/gcc/x86_64-linux-gnu/10/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccuE7H9f.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--build-id] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-m] ==> ignore
+    arg [elf_x86_64] ==> ignore
+    arg [--hash-style=gnu] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib64/ld-linux-x86-64.so.2] ==> ignore
+    arg [-pie] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_1123d] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib]
+    arg [-L/lib/x86_64-linux-gnu] ==> dir [/lib/x86_64-linux-gnu]
+    arg [-L/lib/../lib] ==> dir [/lib/../lib]
+    arg [-L/usr/lib/x86_64-linux-gnu] ==> dir [/usr/lib/x86_64-linux-gnu]
+    arg [-L/usr/lib/../lib] ==> dir [/usr/lib/../lib]
+    arg [-L/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..]
+    arg [CMakeFiles/cmTC_1123d.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [-lc] ==> lib [c]
+    arg [-lgcc] ==> lib [gcc]
+    arg [--push-state] ==> ignore
+    arg [--as-needed] ==> ignore
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [--pop-state] ==> ignore
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o]
+    arg [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/Scrt1.o] ==> [/usr/lib/x86_64-linux-gnu/Scrt1.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crti.o] ==> [/usr/lib/x86_64-linux-gnu/crti.o]
+  collapse obj [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu/crtn.o] ==> [/usr/lib/x86_64-linux-gnu/crtn.o]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10] ==> [/usr/lib/gcc/x86_64-linux-gnu/10]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../../../lib] ==> [/usr/lib]
+  collapse library dir [/lib/x86_64-linux-gnu] ==> [/lib/x86_64-linux-gnu]
+  collapse library dir [/lib/../lib] ==> [/lib]
+  collapse library dir [/usr/lib/x86_64-linux-gnu] ==> [/usr/lib/x86_64-linux-gnu]
+  collapse library dir [/usr/lib/../lib] ==> [/usr/lib]
+  collapse library dir [/usr/lib/gcc/x86_64-linux-gnu/10/../../..] ==> [/usr/lib]
+  implicit libs: [gcc;gcc_s;c;gcc;gcc_s]
+  implicit objs: [/usr/lib/x86_64-linux-gnu/Scrt1.o;/usr/lib/x86_64-linux-gnu/crti.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtbeginS.o;/usr/lib/gcc/x86_64-linux-gnu/10/crtendS.o;/usr/lib/x86_64-linux-gnu/crtn.o]
+  implicit dirs: [/usr/lib/gcc/x86_64-linux-gnu/10;/usr/lib/x86_64-linux-gnu;/usr/lib;/lib/x86_64-linux-gnu;/lib]
+  implicit fwks: []
+
+
+Determining if the include file sys/resource.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e2568/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e2568.dir/build.make CMakeFiles/cmTC_e2568.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e2568.dir/CheckIncludeFile.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_e2568.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_e2568
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e2568.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e2568.dir/CheckIncludeFile.c.o -o cmTC_e2568 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the getrusage exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_c2fb8/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_c2fb8.dir/build.make CMakeFiles/cmTC_c2fb8.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c2fb8.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_c2fb8.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_c2fb8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c2fb8.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_c2fb8.dir/CheckSymbolExists.c.o -o cmTC_c2fb8 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/resource.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrusage
+  return ((int*)(&getrusage))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file fcntl.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95959/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95959.dir/build.make CMakeFiles/cmTC_95959.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95959.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_95959.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_95959
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95959.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_95959.dir/CheckIncludeFile.c.o -o cmTC_95959  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2bc13/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2bc13.dir/build.make CMakeFiles/cmTC_2bc13.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bc13.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_2bc13.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_2bc13
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bc13.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2bc13.dir/CheckIncludeFile.c.o -o cmTC_2bc13  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdarg.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_47367/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_47367.dir/build.make CMakeFiles/cmTC_47367.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47367.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_47367.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_47367
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47367.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_47367.dir/CheckIncludeFile.c.o -o cmTC_47367  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16815/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16815.dir/build.make CMakeFiles/cmTC_16815.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16815.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_16815.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_16815
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16815.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_16815.dir/CheckIncludeFile.c.o -o cmTC_16815  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_1ec84/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_1ec84.dir/build.make CMakeFiles/cmTC_1ec84.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1ec84.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_1ec84.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_1ec84
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1ec84.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_1ec84.dir/CheckIncludeFile.c.o -o cmTC_1ec84  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_2c602/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_2c602.dir/build.make CMakeFiles/cmTC_2c602.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c602.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_2c602.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_2c602
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c602.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_2c602.dir/CheckIncludeFile.c.o -o cmTC_2c602  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if files stdlib.h;stdarg.h;string.h;float.h exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b28ad/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b28ad.dir/build.make CMakeFiles/cmTC_b28ad.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b28ad.dir/STDC_HEADERS.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b28ad.dir/STDC_HEADERS.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckIncludeFiles/STDC_HEADERS.c"
+Linking C executable cmTC_b28ad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b28ad.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b28ad.dir/STDC_HEADERS.c.o -o cmTC_b28ad  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_907d5/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_907d5.dir/build.make CMakeFiles/cmTC_907d5.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_907d5.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_907d5.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_907d5
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_907d5.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_907d5.dir/CheckIncludeFile.c.o -o cmTC_907d5  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_13ee1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_13ee1.dir/build.make CMakeFiles/cmTC_13ee1.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_13ee1.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_13ee1.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_13ee1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_13ee1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_13ee1.dir/CheckIncludeFile.c.o -o cmTC_13ee1  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_ab754/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_ab754.dir/build.make CMakeFiles/cmTC_ab754.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ab754.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_ab754.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_ab754
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ab754.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_ab754.dir/CheckIncludeFile.c.o -o cmTC_ab754  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file endian.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_757aa/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_757aa.dir/build.make CMakeFiles/cmTC_757aa.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_757aa.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_757aa.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_757aa
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_757aa.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_757aa.dir/CheckIncludeFile.c.o -o cmTC_757aa  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file limits.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cb5d3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cb5d3.dir/build.make CMakeFiles/cmTC_cb5d3.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cb5d3.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_cb5d3.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_cb5d3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb5d3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cb5d3.dir/CheckIncludeFile.c.o -o cmTC_cb5d3  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file locale.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_74b92/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_74b92.dir/build.make CMakeFiles/cmTC_74b92.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_74b92.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_74b92.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_74b92
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_74b92.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_74b92.dir/CheckIncludeFile.c.o -o cmTC_74b92  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_012ab/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_012ab.dir/build.make CMakeFiles/cmTC_012ab.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_012ab.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_012ab.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_012ab
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_012ab.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_012ab.dir/CheckIncludeFile.c.o -o cmTC_012ab  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f1b9d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f1b9d.dir/build.make CMakeFiles/cmTC_f1b9d.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f1b9d.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f1b9d.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_f1b9d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f1b9d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f1b9d.dir/CheckIncludeFile.c.o -o cmTC_f1b9d  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7cb9b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7cb9b.dir/build.make CMakeFiles/cmTC_7cb9b.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7cb9b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_7cb9b.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_7cb9b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7cb9b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7cb9b.dir/CheckIncludeFile.c.o -o cmTC_7cb9b  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/cdefs.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd74b/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd74b.dir/build.make CMakeFiles/cmTC_cd74b.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd74b.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_cd74b.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_cd74b
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd74b.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cd74b.dir/CheckIncludeFile.c.o -o cmTC_cd74b  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/param.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_54b18/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_54b18.dir/build.make CMakeFiles/cmTC_54b18.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_54b18.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_54b18.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_54b18
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_54b18.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_54b18.dir/CheckIncludeFile.c.o -o cmTC_54b18  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/random.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_3d000/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_3d000.dir/build.make CMakeFiles/cmTC_3d000.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3d000.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_3d000.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_3d000
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3d000.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_3d000.dir/CheckIncludeFile.c.o -o cmTC_3d000  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_e1e05/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_e1e05.dir/build.make CMakeFiles/cmTC_e1e05.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_e1e05.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_e1e05.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_e1e05
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e1e05.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_e1e05.dir/CheckIncludeFile.c.o -o cmTC_e1e05  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining if the INFINITY exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75b10/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75b10.dir/build.make CMakeFiles/cmTC_75b10.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75b10.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_75b10.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_75b10
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75b10.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_75b10.dir/CheckSymbolExists.c.o -o cmTC_75b10  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef INFINITY
+  return ((int*)(&INFINITY))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isinf exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_7ceac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_7ceac.dir/build.make CMakeFiles/cmTC_7ceac.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7ceac.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_7ceac.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_7ceac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7ceac.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_7ceac.dir/CheckSymbolExists.c.o -o cmTC_7ceac  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isinf
+  return ((int*)(&isinf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the isnan exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_baab7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_baab7.dir/build.make CMakeFiles/cmTC_baab7.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_baab7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_baab7.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_baab7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_baab7.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_baab7.dir/CheckSymbolExists.c.o -o cmTC_baab7  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef isnan
+  return ((int*)(&isnan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the nan exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_dd262/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_dd262.dir/build.make CMakeFiles/cmTC_dd262.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_dd262.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_dd262.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_dd262
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_dd262.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_dd262.dir/CheckSymbolExists.c.o -o cmTC_dd262  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <math.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef nan
+  return ((int*)(&nan))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the snprintf exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4c8ae/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4c8ae.dir/build.make CMakeFiles/cmTC_4c8ae.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4c8ae.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_4c8ae.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_4c8ae
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4c8ae.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4c8ae.dir/CheckSymbolExists.c.o -o cmTC_4c8ae  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vasprintf exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5d147/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5d147.dir/build.make CMakeFiles/cmTC_5d147.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5d147.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_5d147.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_5d147
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5d147.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5d147.dir/CheckSymbolExists.c.o -o cmTC_5d147  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vasprintf
+  return ((int*)(&vasprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsnprintf exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f63c7/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f63c7.dir/build.make CMakeFiles/cmTC_f63c7.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f63c7.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_f63c7.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_f63c7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f63c7.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_f63c7.dir/CheckSymbolExists.c.o -o cmTC_f63c7  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsnprintf
+  return ((int*)(&vsnprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vprintf exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_4ab2d/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_4ab2d.dir/build.make CMakeFiles/cmTC_4ab2d.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4ab2d.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_4ab2d.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_4ab2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4ab2d.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_4ab2d.dir/CheckSymbolExists.c.o -o cmTC_4ab2d  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vprintf
+  return ((int*)(&vprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the open exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_8c8be/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_8c8be.dir/build.make CMakeFiles/cmTC_8c8be.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8c8be.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_8c8be.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_8c8be
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8c8be.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_8c8be.dir/CheckSymbolExists.c.o -o cmTC_8c8be  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <fcntl.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef open
+  return ((int*)(&open))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the realloc exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_cd7ba/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_cd7ba.dir/build.make CMakeFiles/cmTC_cd7ba.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cd7ba.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_cd7ba.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_cd7ba
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cd7ba.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_cd7ba.dir/CheckSymbolExists.c.o -o cmTC_cd7ba  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef realloc
+  return ((int*)(&realloc))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the setlocale exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5f70a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5f70a.dir/build.make CMakeFiles/cmTC_5f70a.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5f70a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_5f70a.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_5f70a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5f70a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5f70a.dir/CheckSymbolExists.c.o -o cmTC_5f70a  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef setlocale
+  return ((int*)(&setlocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the uselocale exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_035c3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_035c3.dir/build.make CMakeFiles/cmTC_035c3.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_035c3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_035c3.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_035c3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_035c3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_035c3.dir/CheckSymbolExists.c.o -o cmTC_035c3  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <locale.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef uselocale
+  return ((int*)(&uselocale))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strcasecmp exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_03b1c/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_03b1c.dir/build.make CMakeFiles/cmTC_03b1c.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_03b1c.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_03b1c.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_03b1c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_03b1c.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_03b1c.dir/CheckSymbolExists.c.o -o cmTC_03b1c  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strcasecmp
+  return ((int*)(&strcasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strncasecmp exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_50ee3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_50ee3.dir/build.make CMakeFiles/cmTC_50ee3.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_50ee3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_50ee3.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_50ee3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_50ee3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_50ee3.dir/CheckSymbolExists.c.o -o cmTC_50ee3  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <strings.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strncasecmp
+  return ((int*)(&strncasecmp))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strdup exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_babf2/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_babf2.dir/build.make CMakeFiles/cmTC_babf2.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_babf2.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_babf2.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_babf2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_babf2.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_babf2.dir/CheckSymbolExists.c.o -o cmTC_babf2  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strdup
+  return ((int*)(&strdup))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strerror exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_885e3/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_885e3.dir/build.make CMakeFiles/cmTC_885e3.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_885e3.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_885e3.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_885e3
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_885e3.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_885e3.dir/CheckSymbolExists.c.o -o cmTC_885e3  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <string.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strerror
+  return ((int*)(&strerror))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the vsyslog exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_75181/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_75181.dir/build.make CMakeFiles/cmTC_75181.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_75181.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_75181.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_75181
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_75181.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_75181.dir/CheckSymbolExists.c.o -o cmTC_75181  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <syslog.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef vsyslog
+  return ((int*)(&vsyslog))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the getrandom exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_46b15/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_46b15.dir/build.make CMakeFiles/cmTC_46b15.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_46b15.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_46b15.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_46b15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_46b15.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_46b15.dir/CheckSymbolExists.c.o -o cmTC_46b15  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <sys/random.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef getrandom
+  return ((int*)(&getrandom))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoll exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_9971a/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_9971a.dir/build.make CMakeFiles/cmTC_9971a.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9971a.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_9971a.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_9971a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9971a.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_9971a.dir/CheckSymbolExists.c.o -o cmTC_9971a  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoll
+  return ((int*)(&strtoll))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the strtoull exist passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_91928/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_91928.dir/build.make CMakeFiles/cmTC_91928.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_91928.dir/CheckSymbolExists.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_91928.dir/CheckSymbolExists.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c"
+Linking C executable cmTC_91928
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_91928.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_91928.dir/CheckSymbolExists.c.o -o cmTC_91928  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+File /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdlib.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef strtoull
+  return ((int*)(&strtoull))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_b1ca1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_b1ca1.dir/build.make CMakeFiles/cmTC_b1ca1.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_b1ca1.dir/CheckIncludeFile.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_b1ca1.dir/CheckIncludeFile.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/CheckIncludeFile.c"
+Linking C executable cmTC_b1ca1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b1ca1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_b1ca1.dir/CheckIncludeFile.c.o -o cmTC_b1ca1  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_a2f6e/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_a2f6e.dir/build.make CMakeFiles/cmTC_a2f6e.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a2f6e.dir/SIZEOF_INT.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_a2f6e.dir/SIZEOF_INT.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_INT.c"
+Linking C executable cmTC_a2f6e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a2f6e.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_a2f6e.dir/SIZEOF_INT.c.o -o cmTC_a2f6e  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of int64_t passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_183ff/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_183ff.dir/build.make CMakeFiles/cmTC_183ff.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_183ff.dir/SIZEOF_INT64_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_183ff.dir/SIZEOF_INT64_T.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_INT64_T.c"
+Linking C executable cmTC_183ff
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_183ff.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_183ff.dir/SIZEOF_INT64_T.c.o -o cmTC_183ff  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_16939/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_16939.dir/build.make CMakeFiles/cmTC_16939.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_16939.dir/SIZEOF_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_16939.dir/SIZEOF_LONG.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG.c"
+Linking C executable cmTC_16939
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_16939.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_16939.dir/SIZEOF_LONG.c.o -o cmTC_16939  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of long long passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_5fa99/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_5fa99.dir/build.make CMakeFiles/cmTC_5fa99.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5fa99.dir/SIZEOF_LONG_LONG.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_5fa99.dir/SIZEOF_LONG_LONG.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_LONG_LONG.c"
+Linking C executable cmTC_5fa99
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5fa99.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_5fa99.dir/SIZEOF_LONG_LONG.c.o -o cmTC_5fa99  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of size_t passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_21a12/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_21a12.dir/build.make CMakeFiles/cmTC_21a12.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_21a12.dir/SIZEOF_SIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_21a12.dir/SIZEOF_SIZE_T.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_SIZE_T.c"
+Linking C executable cmTC_21a12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_21a12.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_21a12.dir/SIZEOF_SIZE_T.c.o -o cmTC_21a12  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Determining size of ssize_t passed with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_bf6f1/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_bf6f1.dir/build.make CMakeFiles/cmTC_bf6f1.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_bf6f1.dir/SIZEOF_SSIZE_T.c.o
+/usr/bin/cc -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_bf6f1.dir/SIZEOF_SSIZE_T.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CheckTypeSize/SIZEOF_SSIZE_T.c"
+Linking C executable cmTC_bf6f1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bf6f1.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_bf6f1.dir/SIZEOF_SSIZE_T.c.o -o cmTC_bf6f1  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+
+Performing C SOURCE FILE Test HAVE_ATOMIC_BUILTINS succeeded with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_d44ac/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_d44ac.dir/build.make CMakeFiles/cmTC_d44ac.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d44ac.dir/src.c.o
+/usr/bin/cc -DHAVE_ATOMIC_BUILTINS -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_d44ac.dir/src.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_d44ac
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d44ac.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_d44ac.dir/src.c.o -o cmTC_d44ac  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+int main() { int i, x = 0; i = __sync_add_and_fetch(&x,1); return x; }
+Performing C SOURCE FILE Test HAVE___THREAD succeeded with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_95ba4/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_95ba4.dir/build.make CMakeFiles/cmTC_95ba4.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_95ba4.dir/src.c.o
+/usr/bin/cc -DHAVE___THREAD -D_GNU_SOURCE  -fPIE -o CMakeFiles/cmTC_95ba4.dir/src.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_95ba4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95ba4.dir/link.txt --verbose=1
+/usr/bin/cc -rdynamic CMakeFiles/cmTC_95ba4.dir/src.c.o -o cmTC_95ba4  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+__thread int x = 0; int main() { return 0; }
+Performing C SOURCE FILE Test REENTRANT_WORKS succeeded with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_53f91/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_53f91.dir/build.make CMakeFiles/cmTC_53f91.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_53f91.dir/src.c.o
+/usr/bin/cc -DREENTRANT_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_53f91.dir/src.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_53f91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_53f91.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -rdynamic CMakeFiles/cmTC_53f91.dir/src.c.o -o cmTC_53f91  -lm 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	/* uClibc toolchains without threading barf when _REENTRANT is defined */
+	#define _REENTRANT 1
+	#include <sys/types.h>
+	int main (void)
+	{
+	  return 0;
+	}
+	
+Performing C SOURCE FILE Test BSYMBOLIC_WORKS succeeded with the following output:
+Change Dir: /mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp
+
+Run Build Command(s):/usr/bin/gmake -f Makefile cmTC_f7506/fast && /usr/bin/gmake  -f CMakeFiles/cmTC_f7506.dir/build.make CMakeFiles/cmTC_f7506.dir/build
+gmake[1]: Entering directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f7506.dir/src.c.o
+/usr/bin/cc -DBSYMBOLIC_WORKS -D_GNU_SOURCE  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -fPIE -o CMakeFiles/cmTC_f7506.dir/src.c.o -c "/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp/src.c"
+Linking C executable cmTC_f7506
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f7506.dir/link.txt --verbose=1
+/usr/bin/cc  -ffunction-sections -fdata-sections -Werror -Wall -Wcast-qual -Wno-error=deprecated-declarations -Wextra -Wwrite-strings -Wno-unused-parameter -Wstrict-prototypes  -rdynamic CMakeFiles/cmTC_f7506.dir/src.c.o -o cmTC_f7506  -lm -Wl,-Bsymbolic-functions 
+gmake[1]: Leaving directory '/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build/CMakeFiles/CMakeTmp'
+
+
+Source file was:
+
+	int main (void)
+	{
+	  return 0;
+	}
+	

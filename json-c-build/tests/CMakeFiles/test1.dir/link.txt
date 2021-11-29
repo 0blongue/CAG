@@ -1,0 +1,1 @@
+/usr/bin/cc -g -rdynamic CMakeFiles/test1.dir/test1.c.o -o test1  -Wl,-rpath,"/mnt/c/Users/C24Ameen.Khan/Documents/school/Sophomore Year/Fall21/CS210/final_project/json-c-build" ../libjson-c.so.5.1.0 
