@@ -1,0 +1,3 @@
+EMA Crossing Detected [XRP] @ 021-11-30T04:41:00Z:
+Current Price: 0.999996
+

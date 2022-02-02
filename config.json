@@ -1,0 +1,23 @@
+{
+    "APIKEY":"YOUR KEY GOES HERE",
+    "mailingList":"mailingList.txt",
+    "emailUsername":"Username for the email you will use to send messages",
+    "emailPassword":"Password for the email you will use to send messages",
+    "currencies":[
+        {
+            "token":"BTC",
+            "emaSmallSize":5,
+            "emaLargeSize":8
+        },
+        {
+            "token":"ETH",
+            "emaSmallSize":12,
+            "emaLargeSize":26
+        },
+        {
+            "token":"XRP",
+            "emaSmallSize":50,
+            "emaLargeSize":100
+        }
+    ]
+}
