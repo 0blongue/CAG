@@ -1,3 +1,5 @@
-EMA Crossing Detected [ETH] @ 021-11-29T06:42:00Z:
-Current Price: 4345.350383
+
+
+EMA Crossing Detected [ETH] @ 021-12-08T09:44:00Z:
+Current Price: 4374.882140
 

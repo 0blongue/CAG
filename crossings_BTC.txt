@@ -1,3 +1,5 @@
-EMA Crossing Detected [BTC] @ 021-11-29T06:49:00Z:
-Current Price: 57657.598275
+
+
+EMA Crossing Detected [BTC] @ 021-12-08T09:41:00Z:
+Current Price: 50447.382587
 
